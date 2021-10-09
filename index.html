@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "author" content = "Minjun Xu">
     <title>CutiePet Project Meeting Minutes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/icon.jpg"/>
-    
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
     <header>
@@ -24,21 +27,31 @@
             </ul>
         </nav>
 
-        <div>
+
+        <div class="scrtMsg">
+            <p>
+                secret message! Time about this lab makes me stressed.
+            </p>
+        </div>
+
+        <div class = "part1">
             <h2>1. Meeting Details</h2>
-                <ul>
+                <ul class="info">
                     <li>Chairperson: <b>Daniel Wu</b> </li>
                     <li>Date: 10/2/2021</li>
                     <li>Location: Geisel Library</li>
                 </ul>
         </div>
         
-        <div>
+        <div class = "part2">
             <h2>2. Attendance List</h2>
                 <p>Present: Daniel Wu, Sam Ruan, Garfield, Ian Xu<br>
                     <em>Absent: Ivan</em>
 
                 </p>
+        </div>
+
+        <div class="part3">
             <h2>3. Agenda of this meeting</h2>
                 <ol>
                     <li>Introduce the product</li>
@@ -48,31 +61,71 @@
         </div>
 
         
-        
         <section>
-            <h2>4. Old Business</h2>
+            <h2 >4. Old Business</h2>
                 <ul>
                     <li>Chooose appropriate person as tech lead</li>
                     <li>Set the develop strucutre for the team</li>
                 </ul>
+        </section>
 
-
+        <div class = "part5class" id = "part5">
             <h2>5. New Business</h2>
                 <ol>
                     <li>Follow the logistics in the form to finish the setup:
                         <a href="https://docs.google.com/document/d/1EVR3Gg65NSQagtJ_28Eqwhd1BjuKKqOznni9vppyTEQ/edit?usp=sharing">team management document</a></li>
                     <li>Follow the agenda to do the brainstorm</li>
                 </ol>
-        </section>
+        </div>
+
+
 
         <section>
             <h2>6. Comment,Questions,Concerns</h2>
+            <!-- <p>Some comment</p>
+            <p>Some question</p> -->
             <details>
                 <summary>Detail</summary>
                 <p><span>How many people will in this team? When will we start the teamwork?</span></p>
                 <p>I am concern the agile development style will hurt the initial project develop, since it's important to focus on the project itself at begining.</p>
             </details>
         </section>
+
+        <div>
+            <span>Testing start</span>
+            <p>test general sibling</p>
+            <p>test 22</p>
+        </div>
+
+
+        <style>
+            .flex-container {
+              display: flex;
+              background-color: rgb(65, 2, 59);
+            }
+            
+            .flex-container > div {
+              background-color: whitesmoke;
+              margin: 10px;
+              padding: 20px;
+              font-size: 30px;
+            }
+        </style>
+        <div class="flex-container">
+            <div>10</div>
+            <div>20</div>
+            <div>30</div>  
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>  
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+        </div>
+
+        <p style="color:blueviolet;">This is an inline css.</p>
 
 
         <hr>
@@ -81,7 +134,7 @@
                 <source src="video_1.mp4" type="video/mp4">
             </video>
            <br>
-            <audio controls>
+            <audio controls class="myaudio">
                 <source src="audio_guitar.m4a" type="audio/mpeg">
                 <!-- <source src="myAudio.ogg" type="audio/ogg"> -->
                 <!-- <p>Your browser doesn't support HTML5 audio. Here is
@@ -143,7 +196,7 @@
     <input id="date" type="date">
     <p>Select an electronic device: </p>
 
-    <div>
+    <div class="elecChoice">
       <input type="radio" id="ipad" name="drone" value="ipad"
              checked>
       <label for="ipad">ipad</label>
