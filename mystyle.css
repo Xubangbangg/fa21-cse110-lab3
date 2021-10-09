@@ -1,0 +1,133 @@
+*{
+    /* background-color:rgb(240, 240, 214); */
+    font-family: sans-serif;
+}
+
+section > h2 {
+    background-color: lightblue;
+    display: inline;
+}
+
+h1{
+    text-align: center;
+    border: 3pt solid green;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.scrtMsg{
+    display: none;
+}
+
+
+/* Make css for class part1 */
+.part1 {
+    color: rgb(102, 6, 6);
+    margin-left: 20px;
+    font-family: "Sofia", sans-serif;
+}
+
+nav ul{
+    padding-top: 1.5cm;
+    padding-right: 3cm;
+
+}
+
+.info li:nth-child(3){
+    color: rgb(90, 90, 194);
+    text-decoration: underline;
+    
+}
+.part2 {
+    border: 5px solid rgb(109, 7, 7);
+    max-width: 1000px;
+    max-height: 1000px;
+    color: #474;
+    margin:8ch 8ch 8ch 8ch;
+
+}
+
+#part5.part5class{
+    background-color: rgb(226, 226, 188);
+}
+
+@media only screen and (max-width: 800px) {
+    .part1 {
+      background-color: lightblue;
+    }
+}
+
+.part2 > p{
+    margin-right: 20cm;
+
+}
+
+span ~ p{
+    color: red;
+}
+
+#part5 li:first-of-type + li {
+    color: red;
+}
+
+.part3{
+    color: orange;
+    padding-left: 3px;
+    border-style: groove;
+    border-width: 0.5cm;
+    border-color: chocolate;
+    border-radius: 30px;
+}
+
+#part5{
+    border: 5px solid darkblue;
+    padding-bottom: 0.5cm;
+    padding-left: 3cm;
+    height: 100px;
+    width: 50cm;
+}
+
+
+a[href="https://docs.google.com/document/d/1EVR3Gg65NSQagtJ_28Eqwhd1BjuKKqOznni9vppyTEQ/edit?usp=sharing"]{
+    color:hsl(120,100%,25%);
+    margin:auto;
+}
+
+.part3:hover{
+    margin-top: 5cm;
+    background-color: rebeccapurple;
+    border-style: dotted;
+}
+
+section:active{
+    margin-bottom: 15ex;
+    color: rgb(133, 20, 0);
+}
+
+
+audio,video{
+    padding: 10ch 10ch 10ch 10ch;
+}
+
+form{
+    position: static;
+    border: 3px solid #1f3303;
+}
+
+picture{
+    position: relative;
+    border: 3px rgb(94, 94, 0);
+}
+
+.grid-container {
+    display: grid;
+    background-color: #70addf;
+  }
+
+  .grid-item {
+    background-color: rgba(147, 209, 147, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
